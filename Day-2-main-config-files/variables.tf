@@ -1,12 +1,12 @@
 variable "ami-id" {
     description = "inerting the ami values to main.tf"
     type = string
-    default = "ami-08a6efd148b1f7504"
+    default = ""
   
 }
 variable "instance-type" {
     type = string
-    default = "t2.micro"
+    default = ""
   
 }
 variable "subnet-id" {
